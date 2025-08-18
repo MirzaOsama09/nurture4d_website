@@ -57,7 +57,7 @@ h4, h5, h6 {
  
 
 span.color {
-	color: #0feb9e;
+	color: #CFAB8D;
 }
 
 body > section,
@@ -160,8 +160,8 @@ body > section,
 .navbar-nav li a:focus,
 .navbar-nav li a:hover {
 	background-color: transparent;
-	border-top: 1px solid #D9C4B0;
-	color: #D9C4B0;
+	border-top: 1px solid #CFAB8D;
+	color: #CFAB8D;
 }
 
 
@@ -206,7 +206,7 @@ body > section,
 
 .carousel-caption p:before,
 .carousel-caption p:after {
-color: #0feb9e;
+color: #CFAB8D;
 content: "___";
 position: relative;
 top: -8px;
@@ -714,4 +714,15 @@ label.error {
   position: fixed;
   right: 25px;
   z-index: 9;
+  color: #CFAB8D;
+}
+
+#back-top:hover {
+  padding: 3px;
+  border: 1px solid #CFAB8D; /* border color */
+  border-radius: 50%; /* makes it circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
