@@ -69,8 +69,7 @@ span.color {
   color: #db8127;
 }
 
-body>section,
-.footer {
+body>section {
   padding: 70px 0;
 }
 
@@ -641,7 +640,7 @@ label.error {
   width: 150px;
 }
 
-.footer-social {
+/* .footer-social {
   margin-top: 17px;
 }
 
@@ -649,7 +648,7 @@ label.error {
   color: #cdd2d6;
   display: block;
   margin-bottom: 10px;
-}
+} */
 
 #map_canvas {
   height: 215px;
@@ -662,11 +661,10 @@ label.error {
 	Contact Us
 ==========================================*/
 
-
 .footer {
   background-color: #571845;
-  border-top: 5px solid #062033;
   color: #fff;
+  padding: 25px 0;
 }
 
 .footer a:hover {
@@ -676,8 +674,8 @@ label.error {
 .footer h6 {
   font-size: 14px;
   font-weight: 700;
-  line-height: 24px;
-  margin-bottom: 30px;
+  /* line-height: 24px;
+  margin-bottom: 30px; */
 }
 
 .about-us p {
@@ -731,7 +729,6 @@ label.error {
 
 .copyright {
   color: #fff;
-  margin-top: 100px;
 }
 
 #back-top {
@@ -739,17 +736,5 @@ label.error {
   position: fixed;
   right: 25px;
   z-index: 9;
-  color: #CFAB8D;
-}
-
-#back-top:hover {
-  padding: 3px;
-  border: 1px solid #CFAB8D;
-  /* border color */
-  border-radius: 50%;
-  /* makes it circular */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  color: #db8127;
 }
