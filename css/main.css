@@ -123,16 +123,22 @@ body>section {
 #preloader {
   background-color: #fff;
   height: 100%;
-  position: fixed;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1100;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#preloader>img {
-  left: 47%;
-  position: absolute;
-  top: 48%;
+#preloader > img {
+  max-width: 100px; /* optional: prevent oversized image on small screens */
+  height: auto;
 }
+
 
 
 /*=========================================
