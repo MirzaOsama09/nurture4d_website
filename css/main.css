@@ -69,6 +69,16 @@ span.color {
   color: #db8127;
 }
 
+.btn-main{
+  background-color: #5f3156;
+  color: #fff;
+}
+
+.btn-main:hover{
+  background-color: #6e3e65;
+  color: #fff;
+}
+
 body>section {
   padding: 70px 0;
 }
